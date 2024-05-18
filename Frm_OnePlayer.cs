@@ -34,9 +34,9 @@ namespace Tic_Tac_Toe__X_O_
         }
         void Wineffect(Guna.UI2.WinForms.Guna2Button b1, Guna.UI2.WinForms.Guna2Button b2, Guna.UI2.WinForms.Guna2Button b3)
         {
-            b1.ForeColor = Color.AliceBlue;
-            b2.ForeColor = Color.AliceBlue;
-            b3.ForeColor = Color.AliceBlue;
+            b1.ForeColor = Color.Red;
+            b2.ForeColor = Color.Red;
+            b3.ForeColor = Color.Red;
             if (b1.Text == "X")
             {
                 My_Score++;
